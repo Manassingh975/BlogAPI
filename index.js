@@ -10,7 +10,7 @@ const connectDB = require('./connectMongo')
 
 connectDB()
 
-const BookModel = require('./models/blog.model')
+const BlogApi = require('./models/blog.model')
 
 app.get('/api/posts/', async(req, res) => {
     try{
